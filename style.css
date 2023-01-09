@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header {
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.nav__link {
+    font-weight: 500;
+    text-shadow: 0px 0px 18px rgb(255, 0, 0);
+}
+
+.section {
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    background-image: url(img/firework-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 60px;
+    background-image: url(img/1626946142_15-p-fon-krasno-zolotoi-gradient-15.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0;
+}
+
+.title__top {
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+}
+
+.title__btm {
+    text-transform: uppercase;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 700;
+}
+
+.main__desc {
+    max-width: 500px;
+    font-size: 78px;
+    margin-bottom: 50px;
+    font-family: 'Monotype Corsiva';
+    color: rgb(255, 255, 255);
+}
+
+.main__link {
+    font-weight: 600;
+    background-color: red;
+    padding: 10px;
+    min-width: 165px;
+    border-radius: 5px;
+}
+
+.main__link:hover {
+    background-color: rgb(225, 18, 18);
+    box-shadow: 0px 0px 28px 10px rgb(89, 0, 255);
+}
+
+.desc {
+    display: flex;
+}
+
+.section-col {
+    background-color: chartreuse;
+    border: 3px solid rgb(247, 0, 255);
+    height: 100%;
+    width: 50%;
+}
+
+.desc__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.desc__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    text-align: justify;
+}
+
+.subtitle {
+    background-image: url(img/KDU06.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 78px;
+    text-transform: uppercase;
+}
+
+.subtitle::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 50px;
+    background-color: crimson;
+}
